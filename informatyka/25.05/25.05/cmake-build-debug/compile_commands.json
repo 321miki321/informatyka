@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/student/Desktop/miki1234/cmake-build-debug",
+  "command": "C:\\Users\\student\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\miki1234.dir\\main.cpp.obj -c C:\\Users\\student\\Desktop\\miki1234\\main.cpp",
+  "file": "C:/Users/student/Desktop/miki1234/main.cpp",
+  "output": "C:/Users/student/Desktop/miki1234/cmake-build-debug/CMakeFiles/miki1234.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/student/Desktop/miki1234/cmake-build-debug",
+  "command": "C:\\Users\\student\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -g -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles\\miki1234.dir\\kolejka.cpp.obj -c C:\\Users\\student\\Desktop\\miki1234\\kolejka.cpp",
+  "file": "C:/Users/student/Desktop/miki1234/kolejka.cpp",
+  "output": "C:/Users/student/Desktop/miki1234/cmake-build-debug/CMakeFiles/miki1234.dir/kolejka.cpp.obj"
+}
+]
