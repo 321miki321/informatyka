@@ -1,0 +1,34 @@
+class Circle:
+    # Class attribute
+    pi = 3.14159265359
+
+    def __init__(self, radius):
+        # Instance attribute
+        self.radius = radius
+
+    # Instance method
+    def area(self):
+        return self.pi * (self.radius ** 2)
+
+    # Class method
+    @classmethod
+    def set_pi(cls, value):
+        cls.pi = value
+
+
+if __name__ == '__main__':
+    circle1 = Circle(5)
+    circle2 = Circle(10)
+    circle3 = Circle(15)
+    print("Circle 1 Area:", circle1.area())
+    print("Circle 2 Area:", circle2.area())
+    print("Circle 3 Area:", circle3.area())
+
+    Circle.set_pi(3.14)  # Modify the class attribute
+    circle1 = Circle(5)
+    circle2 = Circle(10)
+    circle3 = Circle(15)
+
+    print("Circle 1 Area:", circle1.area())
+    print("Circle 2 Area:", circle2.area())
+    print("Circle 3 Area:", circle3.area())
